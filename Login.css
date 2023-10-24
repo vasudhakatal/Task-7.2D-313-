@@ -1,0 +1,63 @@
+/* Login.css */
+.loginpage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .google {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .login-with-google-btn {
+    background-color: #4285f4; /* Google Blue */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-with-google-btn:hover {
+    background-color: #357ae8; /* Slightly darker Google Blue on hover */
+  }
+  
+  .Email {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .Email input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .login-with-email-btn {
+    background-color: #007acc; /* Custom color for the email/password button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-with-email-btn:hover {
+    background-color: #0056b3; /* Slightly darker color on hover */
+  }
+  

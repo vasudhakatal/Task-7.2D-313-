@@ -1,0 +1,60 @@
+/* QuestionPage.css */
+
+/* Style for the container div */
+.QuestionPage {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style for the header */
+  .QuestionPage h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* Style for individual questions */
+  .question {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .question h2 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .questionText {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .question h3 {
+    font-size: 16px;
+    color: #777;
+    margin-bottom: 5px;
+  }
+  
+  /* Style for the author name */
+  .question h3:last-child {
+    margin-bottom: 0;
+  }
+  
+  /* Style for tags */
+  .question h3:nth-last-child(2) {
+    margin-bottom: 10px;
+  }
+  
+  /* Hover effect for questions */
+  .question:hover {
+    background-color: #f2f2f2;
+  }
+  

@@ -1,0 +1,76 @@
+/* Home.css */
+
+/* Container styling */
+.homePage {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Header styling */
+.homePage h1 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Common style for questions and articles */
+.question,
+.article {
+  background-color: #fff;
+  border: 1px solid #e0e0e0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.2s ease-in-out;
+}
+
+/* Question and article titles */
+.question h2,
+.article h2 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* Text content */
+.questionText,
+.articleAbstract,
+.articleText {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 15px;
+}
+
+/* Tags and author names */
+.question h3,
+.article h3 {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 5px;
+}
+
+/* Author name styling */
+.question h3:last-child,
+.article h3:last-child {
+  margin-bottom: 0;
+  font-weight: bold;
+  color: #444;
+}
+
+/* Image styling for articles */
+.article img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 15px;
+}
+
+/* Hover effect for questions and articles */
+.question:hover,
+.article:hover {
+  background-color: #f5f5f5;
+  transform: translateY(-2px);
+}

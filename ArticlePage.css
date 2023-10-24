@@ -1,0 +1,39 @@
+/* ArticlePage.css */
+
+/* Styles for the entire ArticlePage component */
+.articlePage {
+  text-align: center;
+  padding: 20px;
+}
+
+/* Styles for the article title */
+.article h2 {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+/* Styles for the article abstract */
+.articleAbstract {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+/* Styles for the article image */
+.article img {
+  max-width: 100%;
+  height: auto;
+  margin: 10px 0;
+}
+
+/* Styles for the article text */
+.articleText {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+/* Styles for the author name */
+.article h3 {
+  font-size: 16px;
+  font-style: italic;
+  margin: 10px 0;
+}
